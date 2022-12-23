@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1 id="menu">Menu's List</h1>
+    <h1 id="menu">Menu Page</h1>
     <div class="container center">
         <form action="menu.php" method="get">
             <div class="row">
