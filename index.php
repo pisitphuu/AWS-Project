@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1st page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>MENU</title>
 
 </head>
 
 <body>
-    <h1 id="menu">Menu Page</h1>
+    <h1 id="menu">MENU PAGE</h1>
     <div class="container center">
         <form action="menu.php" method="get">
             <div class="row">
