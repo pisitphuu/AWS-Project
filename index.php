@@ -11,19 +11,6 @@
 </head>
 
 <body>
-    <!-- <div class="main">
-        <form action="action.php" method="post">
-            <span>Firstname : </span>
-            <input type="text" name="fn"><br>
-            <span>Surname : </span>
-            <input type="text" name="sn"><br>
-            <span>Email : </span>
-            <input type="text" name="email"><br>
-            <span>Amount : </span>
-            <input type="number" name="amount"><br>
-            <button type="submit">Go!</button>
-        </form>
-    </div> -->
     <h1 id="menu">Menu's List</h1>
     <div class="container center">
         <form action="menu.php" method="get">
@@ -41,7 +28,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty1" value="0">
+                    <input type="number" class="count" name="qty1" value="0" min="0">
                 </div>
                 <div class="card col-3">
                     <img src="/img/Milkshake.jpg" class="card-img-top">
@@ -56,7 +43,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty2" value="0">
+                    <input type="number" class="count" name="qty2" value="0"  min="0">
                 </div>
                 <div class="card col-3">
                     <img src="img/Smoothie.jpg" class="card-img-top">
@@ -71,7 +58,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty3" value="0">
+                    <input type="number" class="count" name="qty3" value="0"  min="0">
                 </div>
             </div>
 
@@ -89,7 +76,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty4" value="0">
+                    <input type="number" class="count" name="qty4" value="0"  min="0">
                 </div>
                 <div class="card col-3">
                     <img src="/img/Pancake.jpg" class="card-img-top">
@@ -104,7 +91,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty5" value="0">
+                    <input type="number" class="count" name="qty5" value="0"  min="0">
 
                 </div>
                 <div class="card col-3">
@@ -120,7 +107,7 @@
                         </div>
                     </div>
                     <!-- quantity button -->
-                    <input type="number" class="count" name="qty6" value="0">
+                    <input type="number" class="count" name="qty6" value="0"  min="0">
                 </div>
             </div>
             <button type="submit" class="btn btn-success" style="font-size: 25px;">Submit!</button>
